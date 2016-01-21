@@ -105,6 +105,7 @@ function drawCircle(color) {
     var centerY = canvas.height / 2;
     var radius = canvas.width / 4;
 
+    context.clearRect(0, 0, canvas.width, canvas.height);
     context.beginPath();
     context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
     context.fillStyle = color;
