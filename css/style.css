@@ -130,7 +130,7 @@ html, body {
 #title {
     position: absolute;
     text-align: center;
-    vertical-align: text-top;
+    top: 0;
 }
 
 .textarea {
